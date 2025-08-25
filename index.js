@@ -1,8 +1,8 @@
     // ---------------- Data ----------------
     const projects = [
-      { title: 'Smart Irrigation Dashboard', desc: 'Web dashboard for precision agriculture using satellite data and telemetry.', tags:['Next.js','Node.js','Postgres'], thumb: projectThumbSvg('Smart Irrigation'), year: '2023' },
-      { title: 'CanSat Ground Station', desc: 'Data acquisition and visualization for pico-satellite prototypes.', tags:['Python','Flask','WebSockets'], thumb: projectThumbSvg('CanSat Station'), year: '2024' },
-      { title: 'E-commerce Storefront', desc: 'Responsive online store with payment gateway and inventory dashboard.', tags:['React','Tailwind','MongoDB'], thumb: projectThumbSvg('E-commerce'), year: '2023' },
+      { title: 'The EloteCo', desc: 'Web dashboard for precision agriculture using satellite data and telemetry.', tags:['Next.js','Node.js','ReactJs'], thumb: './img/theeloteco.png', year: '2025', href: "https://theeloteco.com", repositorie: "https://github.com/jesusrpd/theeloteco" },
+      { title: 'BlueJays Restaurant', desc: 'Data acquisition and visualization for pico-satellite prototypes.', tags:['Python','Flask','WebSockets'], thumb: projectThumbSvg('CanSat Station'), year: '2024', href: "", repositorie: "https://github.com/jesusrpd/BlueJaysLoanding" },
+      { title: 'E-commerce Storefront', desc: 'Responsive online store with payment gateway and inventory dashboard.', tags:['React','Tailwind','MongoDB'], thumb: projectThumbSvg('E-commerce'), year: '2023', href: "", repositorie: "" },
     ];
 
     const skills = [
@@ -27,9 +27,9 @@
     const el = (tag, props={}) => Object.assign(document.createElement(tag), props);
 
     // -------------- Inject content --------------
-    function renderProfile() {
-      $('#profile-pic').src = profilePicSvg();
-    }
+    // function renderProfile() {
+    //   $('#profile-pic').src = profilePicSvg();
+    // }
 
     function renderCareer() {
       const wrap = $('#career-list');
@@ -65,8 +65,8 @@
         p.tags.forEach(t => tags.appendChild(el('span', { className: 'tag', textContent: t })));
 
         const ctas = el('div', { style: 'margin-top:10px; display:flex; gap:8px;' });
-        ctas.appendChild(el('a', { className: 'primary', href: '#', textContent: 'Live' }));
-        ctas.appendChild(el('a', { className: 'secondary', href: '#', textContent: 'Source' }));
+        ctas.appendChild(el('a', { className: 'primary', href: p.href, textContent: 'Live' }));
+        ctas.appendChild(el('a', { className: 'secondary', href: p.repositorie, textContent: 'Source', target: "_blank" }));
 
         article.appendChild(thumb);
         article.appendChild(h);
@@ -169,7 +169,7 @@
 
     // -------------- Init --------------
     function init() {
-      renderProfile();
+    //   renderProfile();
       renderCareer();
       renderProjects();
       renderSkills();
