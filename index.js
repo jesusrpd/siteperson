@@ -22,9 +22,10 @@
     const tools = ['Excel','Inspire','Hyperworks','SolidEdge','SolidWorks','Catia V5','MongoDB','SQL'];
 
     const career = [
-      { title: 'Engineering Intern — Cuauhtémoc IPN', date: '2024', desc: 'Worked on picosatellite prototypes: CAD, board integration and testing.' },
-      { title: 'Frontend Developer — Freelance', date: '2023 - Present', desc: 'Designed and implemented responsive websites for local businesses and startups.' },
-      { title: 'Research Presentation — IAC 2024', date: '2024', desc: 'Presented research on precision agriculture and earth observation.' },
+      { title: 'Becario ingeniería — GEMA MX', date: '2024 - Actualidad', desc: 'Desarrollo de proyectos para diversos clientes, abarcando desde el diseño en SolidWorks hasta la elaboración de planos de fabricación de equipos, principalmente construidos en chapa metálica y estructuras con distintos tipos de perfiles. Asimismo, realizo planos de homologación en AutoCAD para la aprobación del cliente.' },
+      { title: 'Desarrollador web full stack — Karggu & PackandPack', date: '2022 - 2023', desc: 'Desarrollo de nuevas funcionalidades para la plataforma, mantenimiento e implantación de nuevos sistemas web en función de las necesidades de los clientes de la empresa. Además de gestionar tareas, planificar y asignar funciones al resto del equipo, así como formar a nuevos miembros del equipo si fuera necesario.' },
+      { title: 'Freelance — Free', date: '2021 - Actualidad', desc: 'Diseño, planificación y codificación de páginas y aplicaciones web para negocios de Estados Unidos y México.' },
+      { title: 'Mentor y atención al cliente — Dekids', date: '2019 - 2021', desc: 'Impartición de sesiones de programación, soft skills, emprendimiento y creación de videojuegos a niños de 8 a 13 años. También atención al cliente y seguimiento de clientes para saber cuál fue su experiencia con nosotros.' },
     ];
 
     // -------------- DOM helpers --------------
