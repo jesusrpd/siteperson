@@ -209,7 +209,7 @@
     //   renderProfile();
       renderCareer();
       renderProjects();
-      renderProjects2();
+      //renderProjects2();
       renderSkills();
       setupReveal();
       $('#year').textContent = new Date().getFullYear();
