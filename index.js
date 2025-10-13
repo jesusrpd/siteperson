@@ -19,7 +19,7 @@
       { name: 'DevOps / Deployment', pct: 60 },
     ];
 
-    const tools = ['Excel','Inspire','Hyperworks','SolidEdge','SolidWorks','Catia V5','MongoDB','SQL'];
+    const tools = ['Excel','JavaScript','Python','Nextjs','Nodejs','Graphql', 'FastAPI','MongoDB','SQL', 'Pandas', 'Reactjs'];
 
     const career = [
       { title: 'Becario ingeniería — GEMA MX', date: '2024 - Actualidad', desc: 'Desarrollo de proyectos para diversos clientes, abarcando desde el diseño en SolidWorks hasta la elaboración de planos de fabricación de equipos, principalmente construidos en chapa metálica y estructuras con distintos tipos de perfiles. Asimismo, realizo planos de homologación en AutoCAD para la aprobación del cliente.' },
