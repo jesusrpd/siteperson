@@ -12,20 +12,20 @@
     ];
 
     const skills = [
-      { name: 'Frontend with React JS', pct: 85 },
-      { name: 'JavaScript / React', pct: 88 },
+      { name: 'Frontend with JS (NextJs)', pct: 85 },
+      { name: 'Machine Learning', pct: 30 },
       { name: 'Python / Backend', pct: 80 },
-      { name: 'FEA & Simulation', pct: 50 },
+      { name: 'Data Science', pct: 30 },
       { name: 'DevOps / Deployment', pct: 60 },
     ];
 
-    const tools = ['Excel','JavaScript','Python','Nextjs','Nodejs','Graphql', 'FastAPI','MongoDB','SQL', 'Pandas', 'Reactjs'];
+    const tools = ['Python','SQL','Scikit-learn','MongoDB','Reactjs','Nodejs', 'GraphQL','Docker','AWS', 'Django', 'Netlify CI/CD', 'Git & GITHUB', 'Jira', 'NextJs','Tailwind'];
 
     const career = [
-      { title: 'Becario ingeniería — GEMA MX', date: '2024 - Actualidad', desc: 'Desarrollo de proyectos para diversos clientes, abarcando desde el diseño en SolidWorks hasta la elaboración de planos de fabricación de equipos, principalmente construidos en chapa metálica y estructuras con distintos tipos de perfiles. Asimismo, realizo planos de homologación en AutoCAD para la aprobación del cliente.' },
-      { title: 'Desarrollador web full stack — Karggu & PackandPack', date: '2022 - 2023', desc: 'Desarrollo de nuevas funcionalidades para la plataforma, mantenimiento e implantación de nuevos sistemas web en función de las necesidades de los clientes de la empresa. Además de gestionar tareas, planificar y asignar funciones al resto del equipo, así como formar a nuevos miembros del equipo si fuera necesario.' },
-      { title: 'Freelance — Free', date: '2021 - Actualidad', desc: 'Diseño, planificación y codificación de páginas y aplicaciones web para negocios de Estados Unidos y México.' },
-      { title: 'Mentor y atención al cliente — Dekids', date: '2019 - 2021', desc: 'Impartición de sesiones de programación, soft skills, emprendimiento y creación de videojuegos a niños de 8 a 13 años. También atención al cliente y seguimiento de clientes para saber cuál fue su experiencia con nosotros.' },
+      { title: 'CAD Engineer Jr. — GEMA MX', date: '2024 - 2025', desc: '<ul><li>Process optimization with macros (Visual Basic).</li><li>2D and 3D design of projects for electrostatic painting application, based on customer guidelines.</li></ul>' },
+      { title: 'Fullstack Developer — Karggu & PackandPack', date: '2022 - 2023', desc: '<ul><li>Frontend and backend implementation (development, testing, deployment).</li><li>Database reporting and data analysis.</li><li>Teamwork using the SCRUM methodology.</li><li>Planning and management of new requirements aligned with customer needs, as well as training new members of the development team.</li></ul>' },
+      { title: 'Fullstack Developer — Freelancer', date: '2021 - Actuality', desc: '<ul><li>Development of web systems and process automation aligned with customer needs.</li><li>Leadership in programming projects, applying technologies such as AWS, Reactjs, Python, Nextjs, SQL, MondoDB, etc.</li></ul>' },
+      { title: 'Programming instructor — Dekids', date: '2019 - 2021', desc: '<ul><li>Consulting and teaching in web programming (HTML, CSS, JS, CSS frameworks).</li></ul>' },
     ];
 
     // -------------- DOM helpers --------------
